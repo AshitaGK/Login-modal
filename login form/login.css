@@ -1,0 +1,108 @@
+body{
+  margin:0;
+  font-family: Geneva,Tahoma,sans-serif;
+  font-size: 16px;
+}
+
+#particles-js{
+  background-image: url('bluebokehs.jpg');
+
+
+}
+
+
+#signin
+{
+  background: rgba(68,98,160,1);
+  padding: 2em;
+  border:#ccc 2px solid;
+  position:absolute;
+  top:100px;
+  left: 620px;
+  padding: 40px;
+  width: 250px;
+  }
+
+form
+{
+  margin: 0 auto;
+  width: 240px;
+  text-align: center;
+}
+
+input[type=text]
+{
+   width: 240px;
+   text-align: center;
+   background: transparent;
+   border: none;
+   border-bottom: 1px solid #fff;
+   font-family: 'Play', sans-serif;
+   font-size: 16px;
+   font-weight: 200px;
+   padding: 10px 0;
+   transition: border 0.5s;
+   outline: none;
+   colour: #fff;
+}
+
+input[type=password]
+{
+   width: 240px;
+   text-align: center;
+   background: transparent;
+   border: none;
+   border-bottom: 1px solid #fff;
+   font-family: 'Play', sans-serif;
+   font-size: 16px;
+   font-weight: 200px;
+   padding: 10px 0;
+   transition: border 0.5s;
+   outline: none;
+   colour: #fff;
+}
+
+
+input[type=button]
+{
+  border: none;
+  width: 190px;
+  background: white;
+  color: #000;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+input[type=button]:hover
+{
+  color: #fff;
+  background-color: black;
+}
+h2
+{
+  color: white;
+}
+a
+{
+  color: violet;
+  text-decoration: blink;
+}
+a:hover
+{
+  color: purple;
+}
+
+.container
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+::placeholder {
+  color:aliceblue;
+  opacity: 0.5;
+}
